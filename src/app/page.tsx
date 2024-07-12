@@ -6,18 +6,24 @@ import Hero from "@/components/Hero"
 import Aboutus from '@/components/About us/Aboutus';
 import { TracingBeam } from '@/components/ui/tracing-beam';
 import Services from '@/components/services/Services';
+import Testimonials from '@/components/testimonials/Testimonials';
+import ContactUs from '@/components/contact us/ContactUs';
+import Footer from '@/components/footer/Footer';
 
 
 const HomePage = () => {
   return (
     <div>
 
-    
 
-        <Hero />
+
+      <Hero />
       <Aboutus />
-      <Services/>
-   
+      <Services />
+      <Testimonials />
+      <ContactUs />
+      <Footer/>
+
     </div>
   )
 }

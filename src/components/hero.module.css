@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-.container {
+.container {}
+
+.hero_text {
+
     margin-top: 30px;
 
     width: 100%;
@@ -9,9 +12,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
-
-
 }
 
 .textContainer {
@@ -19,15 +19,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: fit-content;
+    width: 60vw;
 }
 
-.hero_text {
-    width: 40vw;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
 
 .heading {
     font-family: "Raleway", sans-serif;
@@ -46,6 +40,7 @@
     font-weight: 500;
     margin: 0px 0;
     z-index: 5;
+    text-align: center;
 }
 
 .cta_btn {

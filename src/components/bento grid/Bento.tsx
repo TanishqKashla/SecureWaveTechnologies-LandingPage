@@ -2,10 +2,12 @@ import React from 'react'
 import styles from './bento.module.css'
 import { HoverBorderGradient } from '../ui/hover-border-gradient'
 
+
 const Bento = () => {
     return (
         <div className={styles.container}>
             <div className={styles.bentoBox}>
+                
                 <div className={`${styles.card} ${styles.card1}`}>
                     <p className='text-4xl font-bold bg-gradient-to-r from-blue-300 to-purple-800 text-transparent bg-clip-text'>120K+</p>
                     <p className='text-center font-medium'>Happy & Secure Customers</p>

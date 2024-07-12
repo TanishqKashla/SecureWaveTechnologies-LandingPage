@@ -33,7 +33,9 @@ const Hero = () => {
 
             <div className={styles.hero_text}>
                 <div className={styles.textContainer}>
-                    <h1 className={styles.heading}>Defend Your Data with the Next Generation of</h1>
+                    <h1 className={styles.heading}>Defend Your Data with</h1>
+                    <br />
+                    <h1 className={styles.heading}>the Next Generation of</h1>
                     <br />
 
                     <FlipWords className='text-center z-[5] text-[rgb(66,113,231)] text-[55px] font-bold -mt-[25px]' words={words} />

@@ -11,6 +11,7 @@
     border-radius: 40px;
     border: 2px solid rgba(128, 171, 235, 0.885);
     backdrop-filter: blur(10px);
+    font-weight: 500;
 
 }
 
