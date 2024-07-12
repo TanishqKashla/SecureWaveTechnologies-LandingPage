@@ -1,0 +1,23 @@
+.container {
+    position: sticky;
+    z-index: 100;
+    top: 15px;
+    display: flex;
+    width: 80vw;
+    justify-content: space-between;
+    margin: auto;
+    background-color: rgba(10, 20, 35, 0.622);
+    padding: 20px 40px;
+    border-radius: 40px;
+    border: 2px solid rgba(128, 171, 235, 0.885);
+    backdrop-filter: blur(10px);
+
+}
+
+.optionsList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}

@@ -1,0 +1,16 @@
+.container {
+    height: 80vh;
+    position: relative;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+
+}
+
+.aboutus {
+    width:550px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    
+}
